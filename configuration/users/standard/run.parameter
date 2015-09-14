@@ -1,0 +1,15 @@
+-Declipse.ignoreApp=true -Dosgi.noShutdown=true
+-DserviceConfigurationPath=/home/martin/research/monitoring/code/platform/pf-builder/configuration/config.xml
+-DloggingConfigurationPath=/home/martin/research/monitoring/code/platform/pf-builder/configuration/logging.xml
+
+
+-Declipse.ignoreApp=true -Dosgi.noShutdown=true
+-DserviceConfigurationPath=E:/research/code/platform/pf-builder/configuration/config.xml
+-DloggingConfigurationPath=E:/research/code/platform/pf-builder/configuration/logging_win.xml
+
+
+
+-Xms128M
+-Xmx512M
+-XX:PermSize=64M
+-XX:MaxPermSize=512M

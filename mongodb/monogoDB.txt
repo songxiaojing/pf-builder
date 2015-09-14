@@ -1,0 +1,16 @@
+/data/mongoData/shardingData
+/data/mongoData/shardingCfg
+/opt/mongoDB/
+#1 
+mkdir -p /data/mongoData/shardingData
+mkdir -p /data/mongoData/shardingCfg
+mkdir -p /opt/mongoDB/
+
+scp root@192.168.69.90:/root/mongoDB/mongodb-linux-x86_64-2.6.7.gz /opt/mongoDB/
+
+tar -xvf /opt/mongoDB/mongodb-linux-x86_64-2.6.7.gz -C /opt/mongoDB/
+mv /opt/mongoDB/mongodb-linux-x86_64-2.6.7 /opt/mongoDB/mongodb
+
+
+/opt/mongoDB/mongodb/mongod --configsvr --port 20000 --dbpath /data/mongoData/shardingCfg &
+/opt/mongoDB/mongodb/mongod --port 30000 --dbpath /data/mongoData/shardingData &

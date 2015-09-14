@@ -1,0 +1,11 @@
+<application>
+	<services>
+		<MongoDBStorageService>
+			<mongoDBConnections>
+				<mongoConnection>127.0.0.1:27017</mongoConnection>
+			</mongoDBConnections>
+			<initialPoolSize>20</initialPoolSize>
+			<databaseInstace>mcu2</databaseInstace>
+		</MongoDBStorageService>
+	</services>
+</application>	

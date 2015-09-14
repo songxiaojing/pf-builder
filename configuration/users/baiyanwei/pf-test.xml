@@ -1,0 +1,15 @@
+<application>
+	<services>
+		<platformTestService>
+			<!-- level-1:function. level-2:test case. level-3:business. level-4:balance. level-all:all-->
+			<provider>byw</provider>
+			<testLevel>level-all</testLevel>
+			<testBundles>
+				<Bundle>com.byw.platform.test</Bundle>
+				<Bundle>com.byw.platform.api</Bundle>
+			</testBundles>
+			<testReportFile>/home/martin/research/moniotring/run/report.xml</testReportFile>
+			<exitOnFinish>true</exitOnFinish>
+		</platformTestService>
+	</services>
+</application>	

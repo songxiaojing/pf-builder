@@ -1,0 +1,15 @@
+-Declipse.ignoreApp=true -Dosgi.noShutdown=true
+-DserviceConfigurationPath=/home/baiyanwei/projects/tss/code/bdc/pf-builder/configuration/users/baiyanwei/config.xml
+-DloggingConfigurationPath=/home/baiyanwei/projects/tss/code/bdc/pf-builder/configuration/users/baiyanwei/logging.xml
+
+
+-Declipse.ignoreApp=true -Dosgi.noShutdown=true
+-DserviceConfigurationPath=E:/research/code/platform/pf-builder/configuration/config.xml
+-DloggingConfigurationPath=E:/research/code/platform/pf-builder/configuration/logging_win.xml
+
+
+
+-Xms128M
+-Xmx512M
+-XX:PermSize=64M
+-XX:MaxPermSize=512M
